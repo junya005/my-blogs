@@ -1,3 +1,11 @@
 # navigation datas
 - name: Home
   link: /
+- name: GameDev
+  link: /game-dev
+- name: Compose
+  link: /compose
+- name: Illustration
+  link: /illustration
+- name: Misc
+  link: /misc
