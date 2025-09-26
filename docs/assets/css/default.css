@@ -14,14 +14,6 @@ body {
 }
 
 /* ナビゲーションメニューのスタイル設定 */
-.navigation_content {
-    background-color: chocolate;
-    color: white;
-    display: inline;
-    padding: 10px, 20px;
-    text-align: center;
-}
-
 .navigation_content ul {
     list-style-type: none;
     padding: 0;
