@@ -1,7 +1,15 @@
+<!--ナビゲーションの内容を記述-->
 <div class="navigation_content">
     <nav>
         <ul>
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li>
+                <!--yamlデータからナビゲーションを作成-->
+                {% for item in site.data.navigation %}
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+                {% endfor %}
+            </li>
         </ul>
     </nav>
 </div>
