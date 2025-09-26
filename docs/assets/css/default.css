@@ -13,21 +13,30 @@ body {
     text-align: center;
 }
 
-nav ul {
+/* ナビゲーションメニューのスタイル設定 */
+.navigation_content {
+    background-color: chocolate;
+    color: white;
+    display: inline;
+    padding: 10px, 20px;
+    text-align: center;
+}
+
+.navigation_content ul {
     list-style-type: none;
     padding: 0;
 }
 
-nav ul {
+.navigation_content ul {
     display: block;
     margin-right: 2Opx;
 }
 
-nav ul li a {
+.navigation_content ul li a {
     color: white;
     text-decoration: none;
 }
 
-Nav ul li a:hover {
+.navigation_content ul li a:hover {
     text-decoration: underline;
 }
