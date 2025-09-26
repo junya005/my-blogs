@@ -1,4 +1,3 @@
 # navigation datas
-# please use relative_url filter for link
 - name: Home
-  link: {{ '/' | relative_url }}
+  link: /
