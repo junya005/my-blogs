@@ -1,4 +1,4 @@
-# navigation datas
+# ナビゲーション名とリンクを列挙
 - name: Home
   link: /
 - name: GameDev

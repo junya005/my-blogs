@@ -5,3 +5,12 @@ permalink: /game-dev
 ---
 
 <h1>ゲーム開発トップページ</h1>
+
+<div class="navigation-to-posts">
+    <ul>
+        {% assign posts = site.categories[GameDev] %}
+        {% for post in posts %}
+        <li><a href="{{post.url}}">{{post.title}}</a>({{post.date | date: "%y-%m-%d"}})</li>
+        {% endfor %}
+    </ul>
+</div>
